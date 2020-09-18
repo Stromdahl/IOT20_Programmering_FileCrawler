@@ -9,7 +9,7 @@ import java.util.Scanner;
 class Main {
     public static String userDir;
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         String searchWord = "READ";
         userDir = System.getProperty("user.dir");
         File filesDir = new File(userDir);
