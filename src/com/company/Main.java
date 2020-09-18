@@ -9,8 +9,11 @@ import java.util.Scanner;
 class Main {
     public static String userDir;
     public static void main(String[] args) {
-        // write your code here
-        String searchWord = "READ";
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Välkommen till FileCrawler 3000"); //input för READ
+        System.out.println("Hej skriv in ditt sökord: ");
+
+        String searchWord = scan.nextLine();
         userDir = System.getProperty("user.dir");
         File filesDir = new File(userDir);
         findFiles(searchWord, filesDir);
@@ -37,9 +40,8 @@ class Main {
                 findFiles(searchWord, file);
             } else {
                 String fileName = file.getName();
-                
                 if (fileContains(file, searchWord)) {
-                        System.out.println(userDir + "\\" + file);
+                        System.out.println(file);
                 }
             }
         }
