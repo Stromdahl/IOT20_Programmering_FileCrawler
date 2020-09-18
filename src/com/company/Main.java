@@ -10,12 +10,10 @@ class Main {
     public static String userDir;
     public static void main(String[] args) {
 	// write your code here
-
         String searchWord = "READ";
         userDir = System.getProperty("user.dir");
         File filesDir = new File(userDir);
         findFiles(searchWord, filesDir);
-
     }
     public static boolean fileContains(File file, String searchWord){
         try{
@@ -32,7 +30,6 @@ class Main {
         }
         return false;
     }
-
     public static void findFiles(String searchWord, File files){
         File[] fileDirectory = files.listFiles();
         for(File file : fileDirectory){
@@ -41,7 +38,7 @@ class Main {
             } else {
                 String fileName = file.getName();
                 
-                if (fileName.contains(searchWord)) {
+                if (fileContains(file, searchWord)) {
                         System.out.println(userDir + "\\" + file);
                 }
             }

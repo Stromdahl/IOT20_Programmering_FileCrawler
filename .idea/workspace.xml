@@ -19,7 +19,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/dag 4 tester" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,19 +41,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -69,7 +56,10 @@
       <option name="presentableId" value="Default" />
       <updated>1600161932918</updated>
       <workItem from="1600161934272" duration="8662000" />
-      <workItem from="1600346815513" duration="5533000" />
+      <workItem from="1600346815513" duration="5619000" />
+      <workItem from="1600373012955" duration="307000" />
+      <workItem from="1600373382773" duration="477000" />
+      <workItem from="1600410501099" duration="211000" />
     </task>
     <servers />
   </component>
@@ -77,30 +67,38 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1600353136935">
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600373063804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1600373063804" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600410707199">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600410707199" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1600373859765">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920/-1920.351.1920.1040@-1920.351.1920.1040" timestamp="1600170552965" />
     <state width="1397" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1600165389332" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600353136935" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1600353136935">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600373859765" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1600373859763">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="242" key="GridCell.Tab.0.center/0.0.1440.920/-1920.351.1920.1040@-1920.351.1920.1040" timestamp="1600170552965" />
     <state width="1397" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1600165389332" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600353136935" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1600353136935">
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600373859763" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1600373859762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="242" key="GridCell.Tab.0.left/0.0.1440.920/-1920.351.1920.1040@-1920.351.1920.1040" timestamp="1600170552965" />
     <state width="1397" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1600165389332" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600353136935" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1600353136935">
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600373859762" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1600373859763">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="242" key="GridCell.Tab.0.right/0.0.1440.920/-1920.351.1920.1040@-1920.351.1920.1040" timestamp="1600170552965" />
     <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1600165389332" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600353136935" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600373859763" />
     <state x="-1409" y="571" width="896" height="767" key="search.everywhere.popup" timestamp="1600166241453">
       <screen x="-1920" y="351" width="1920" height="1040" />
     </state>
