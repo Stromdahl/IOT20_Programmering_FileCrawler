@@ -2,6 +2,7 @@ package com.company;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Scanner;
 
 class Main {
@@ -29,9 +30,11 @@ class Main {
                     return true;
                 }
             }
+            fileScanner.close();
         } catch (FileNotFoundException e) {
             System.err.println(file.getAbsolutePath());
         }
+
         return false;
     }
 
@@ -45,7 +48,11 @@ class Main {
                 findFiles(searchWord, file);
             } else {
                 if (fileContains(file, searchWord)) {
-                        System.out.println(file);
+                    try {
+                        System.out.println(file.getCanonicalPath());
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         }
