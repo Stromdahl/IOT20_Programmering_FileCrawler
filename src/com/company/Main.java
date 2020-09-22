@@ -32,7 +32,11 @@ class Main {
             }
             fileScanner.close();
         } catch (FileNotFoundException e) {
-            System.err.println(file.getAbsolutePath());
+            try {
+                System.err.println(file.getCanonicalPath());
+            } catch (Exception ioException) {
+                ioException.printStackTrace();
+            }
         }
 
         return false;
